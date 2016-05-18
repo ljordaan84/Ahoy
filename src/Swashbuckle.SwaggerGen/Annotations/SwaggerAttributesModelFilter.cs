@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.SwaggerGen.Generator;
+using System;
 using System.Linq;
 using System.Reflection;
-using Microsoft.Extensions.DependencyInjection;
-using Swashbuckle.SwaggerGen.Generator;
 
 namespace Swashbuckle.SwaggerGen.Annotations
 {

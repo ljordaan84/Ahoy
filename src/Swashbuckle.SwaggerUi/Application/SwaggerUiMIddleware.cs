@@ -1,13 +1,11 @@
-﻿using System.IO;
-using System.Reflection;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Routing;
+using Microsoft.AspNetCore.Routing.Template;
 using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
 using System.Text;
-using System.Linq;
-using Microsoft.AspNet.Builder;
-using Microsoft.AspNet.Http;
-using Microsoft.AspNet.Routing;
-using Microsoft.AspNet.Routing.Template;
+using System.Threading.Tasks;
 
 namespace Swashbuckle.Application
 {

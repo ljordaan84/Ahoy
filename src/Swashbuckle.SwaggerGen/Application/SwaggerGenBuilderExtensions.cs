@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Builder;
 using Swashbuckle.SwaggerGen.Application;
 using Swashbuckle.SwaggerGen.Generator;
+using System;
 
 namespace Microsoft.AspNet.Builder
 {

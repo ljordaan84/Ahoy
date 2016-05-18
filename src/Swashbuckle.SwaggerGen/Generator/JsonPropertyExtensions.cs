@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json.Serialization;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
-using Newtonsoft.Json.Serialization;
 
 namespace Swashbuckle.SwaggerGen.Generator
 {

@@ -1,6 +1,6 @@
-﻿using System.Xml.XPath;
+﻿using Swashbuckle.SwaggerGen.Generator;
 using System.Reflection;
-using Swashbuckle.SwaggerGen.Generator;
+using System.Xml.XPath;
 
 namespace Swashbuckle.SwaggerGen.Annotations
 {

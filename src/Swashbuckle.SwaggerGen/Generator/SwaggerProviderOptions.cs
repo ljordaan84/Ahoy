@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using System;
 using System.Collections.Generic;
-using Microsoft.AspNet.Mvc.ApiExplorer;
 
 namespace Swashbuckle.SwaggerGen.Generator
 {

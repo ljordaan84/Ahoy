@@ -1,7 +1,8 @@
-﻿using System.Reflection;
-using Microsoft.AspNet.FileProviders;
-using Microsoft.AspNet.StaticFiles;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.StaticFiles;
+using Microsoft.Extensions.FileProviders;
 using Swashbuckle.Application;
+using System.Reflection;
 
 namespace Microsoft.AspNet.Builder
 {

@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.AspNet.Mvc.ApiExplorer;
 
 namespace Swashbuckle.SwaggerGen.Generator
 {
@@ -135,10 +135,10 @@ namespace Swashbuckle.SwaggerGen.Generator
                 .ToList();
 
             var responses = new Dictionary<string, Response>();
-            if (apiDescription.ResponseType == typeof(void))
+            if (apiDescription.SupportedResponseTypes.Any(r => r.Type == typeof(void)))
                 responses.Add("204", new Response { Description = "No Content" });
             else
-                responses.Add("200", CreateSuccessResponse(apiDescription.ResponseType, schemaRegistry));
+                responses.Add("200", CreateSuccessResponse(apiDescription.SupportedResponseTypes.Select(r => r.Type).FirstOrDefault(), schemaRegistry));
 
             var operation = new Operation
             {

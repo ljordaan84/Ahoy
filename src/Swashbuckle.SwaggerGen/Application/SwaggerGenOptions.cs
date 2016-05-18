@@ -1,11 +1,11 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.SwaggerGen.Annotations;
+using Swashbuckle.SwaggerGen.Generator;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.XPath;
-using Microsoft.AspNet.Mvc.ApiExplorer;
-using Microsoft.Extensions.DependencyInjection;
-using Swashbuckle.SwaggerGen.Generator;
-using Swashbuckle.SwaggerGen.Annotations;
 
 namespace Swashbuckle.SwaggerGen.Application
 {
